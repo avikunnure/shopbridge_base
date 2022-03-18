@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32113.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopbridge_base", "shopbridge_base\Shopbridge_base.csproj", "{9BACFDA8-2607-4222-BECA-381F39695914}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{A4E3C759-574E-4B36-85FD-B04CF829BAA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shopbridge_base.xunit", "Test\shopbridge_base.xunit\shopbridge_base.xunit.csproj", "{C460748A-4592-4493-ABD9-780E78020232}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BACFDA8-2607-4222-BECA-381F39695914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BACFDA8-2607-4222-BECA-381F39695914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BACFDA8-2607-4222-BECA-381F39695914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BACFDA8-2607-4222-BECA-381F39695914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C460748A-4592-4493-ABD9-780E78020232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C460748A-4592-4493-ABD9-780E78020232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C460748A-4592-4493-ABD9-780E78020232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C460748A-4592-4493-ABD9-780E78020232}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C460748A-4592-4493-ABD9-780E78020232} = {A4E3C759-574E-4B36-85FD-B04CF829BAA4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A1A7ADF-9D75-4436-BD96-45FD6F70F66E}
+	EndGlobalSection
+EndGlobal
